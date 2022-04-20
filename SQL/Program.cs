@@ -87,7 +87,7 @@ namespace SQL
         static void InsertarValor(SQLiteConnection conn )
         {
             SQLiteCommand cmd = conn.CreateCommand();
-            cmd.CommandText = "INSERT INTO Pelis (Rank, Title, Director) VALUES('1001', 'Mi Peli', 'Daniel Lozano')";
+            cmd.CommandText = "INSERT INTO Pelis (Rank, Title, Director) VALUES('1001', 'Mi Peli', 'Jhon Corredor')";
 
             cmd.ExecuteNonQuery();
             Console.WriteLine("Agregado el registro");
